@@ -1,0 +1,11 @@
+Manual de Usuario - Clínica Dental Ratoncito Pérez
+
+Este sistema le permite administrar pacientes, inventario de medicamentos, tratamientos dentales y citas.
+
+Pasos:
+1. Ejecute el archivo generado (por ejemplo, clinica.exe).
+2. Navegue por el menú utilizando los números correspondientes.
+3. Ingrese los datos solicitados.
+4. Los cambios se guardan automáticamente en archivos binarios.
+
+Los datos se guardan en la carpeta 'data/'.
