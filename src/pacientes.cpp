@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
-#include "pacientes.h"
+#include "../include/pacientes.h"
 using namespace std;
 
 void menuPacientes() {
