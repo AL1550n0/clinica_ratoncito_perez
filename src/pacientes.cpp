@@ -3,13 +3,12 @@
 #include <cstring>
 #include "../include/pacientes.h"
 #include <windows.h>
-#include <limits>
 using namespace std;
 
 
 
 int main() {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(6500)
     menuPacientes(); 
     return 0;
 }
@@ -24,7 +23,7 @@ void menuPacientes() {
         cout << "0. Volver al menú principal\n";
         cout << "Seleccione una opción: ";
         cin >> opcion;
-        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        cin.ignore();
 
         switch(opcion) {
             case 1: agregarPaciente(); break;
@@ -38,8 +37,6 @@ void menuPacientes() {
 
 void agregarPaciente() {
     Paciente p;
-    // Crear la carpeta "data" si no existe
-    CreateDirectoryA("data", NULL);
     ofstream archivo("data/pacientes.dat", ios::binary | ios::app);
     if (!archivo) {
         cout << "Error al abrir el archivo de pacientes.\n";

@@ -1,21 +1,26 @@
-ID,Nombre,Apellido,FechaNacimiento,Género,Teléfono,Dirección,Correo
-1,Ana,Martínez,1990-05-12,F,7012-3456,Calle Los Naranjos #12,ana.martinez@gmail.com
-2,Carlos,Ramírez,1985-11-23,M,7510-2211,Av. Libertad #34,carlos.ramirez@gmail.com
-3,Lucía,Gómez,2000-01-18,F,7888-3312,Residencial Palma Real,lucia.gomez@gmail.com
-4,Pedro,Rivas,1978-03-02,M,7981-4412,Col. Escalón, Calle A,pedro.rivas@gmail.com
-5,Sofía,Morales,1995-07-30,F,7655-7788,San Miguel, Barrio El Centro,sofia.morales@gmail.com
-6,Diego,Torres,2002-09-09,M,7001-8899,Col. Médica, San Salvador,diego.torres@gmail.com
-7,Mariana,Pineda,1998-06-15,F,7123-4456,Santa Tecla, Calle Real,mariana.pineda@gmail.com
-8,Andrés,Castillo,1989-10-28,M,7211-3388,Col. Miramonte,andres.castillo@gmail.com
-9,Camila,Chávez,2001-12-11,F,7311-9988,Soyapango, Pasaje 5,camila.chavez@gmail.com
-10,Jorge,Salinas,1975-08-05,M,7523-4455,Mejicanos, Calle Central,jorge.salinas@gmail.com
-11,Valeria,Fuentes,1999-03-27,F,7890-5566,Col. La Sultana,valeria.fuentes@gmail.com
-12,Esteban,Mejía,1992-08-12,M,7941-2277,San Vicente, Calle Nueva,esteban.mejia@gmail.com
-13,Daniela,Ortiz,1996-11-03,F,7654-1234,Col. Flor Blanca,daniela.ortiz@gmail.com
-14,Oscar,López,1983-06-18,M,7321-4321,Ilopango, Calle Central,oscar.lopez@gmail.com
-15,Claudia,Villalta,1994-02-09,F,7015-8899,Santa Ana, Calle Luna,claudia.villalta@gmail.com
-16,Fernando,Hernández,1990-10-21,M,7200-4433,Sonsonate, Av. Bolívar,fernando.hernandez@gmail.com
-17,Isabel,Cruz,2003-07-14,F,7588-6655,Col. Miralvalle,isabel.cruz@gmail.com
-18,Marco,Reyes,1991-04-25,M,7771-9023,Col. San Francisco,marco.reyes@gmail.com
-19,Karen,Batres,1997-09-05,F,7643-1100,Col. Médica,karen.batres@gmail.com
-20,Santiago,Melara,1986-01-16,M,7099-3322,La Libertad, Calle Principal,santiago.melara@gmail.com
+nombre_paciente,dui,fecha_nacimiento,comentarios
+Ana María Alas,04563218-7,12/03/1975,Periodontitis crónica. Necesita curetajes cada 3 meses.
+Carlos Ernesto Arévalo,12345678-9,05/08/1982,Alergia a lidocaína. Usar mepivacaína en procedimientos.
+Juan Pablo Bonilla,23456789-0,19/11/1990,Bruxismo severo. Uso de placa nocturna desde 2020.
+María José Calderón,34567890-1,22/07/1988,Embarazada (4to mes). Evitar radiografías.
+Luis Fernando Cáceres,45678901-2,30/01/1970,Implantes dentales inferiores. Control anual.
+Sofía Guadalupe Díaz,56789012-3,14/09/2001,Ortodoncia en fase 1 (brackets). Ajuste mensual.
+José Antonio Escobar,67890123-4,08/05/1965,Prótesis dental completa superior. Revisar ajuste.
+Karla Beatriz Flores,78901234-5,25/12/1995,Caries múltiples. Programa de sellantes.
+Roberto Carlos García,89012345-6,03/04/1983,Fractura molar 36. Evaluar extracción o endodoncia.
+Marta Eugenia Guzmán,90123456-7,17/10/1978,Recesión gingival en incisivos. Injerto programado.
+Francisco Javier Hernández,01234567-8,29/02/1996,Diente 48 impactado. Cirugía programada.
+Laura Beatriz Iraheta,11223344-9,11/06/1989,Sensibilidad dental. Uso de pasta desensibilizante.
+Mario Alfonso Jiménez,22334455-0,07/07/1973,Edentulismo parcial. Opciones: puente o implante.
+Silvia Patricia López,33445566-1,01/01/2005,Paciente pediátrica. Fluorización anual.
+Óscar René Martínez,44556677-2,13/08/1968,Enfermedad periodontal avanzada. Extracciones pendientes.
+Carmen Elena Núñez,55667788-3,09/09/1993,Blanqueamiento dental realizado (2023). Mantenimiento.
+Alfredo José Orellana,66778899-4,24/02/1980,Maloclusión clase III. Evaluar cirugía ortognática.
+Patricia Elizabeth Portillo,77889900-5,15/05/1976,Xerostomía por medicación. Uso de saliva artificial.
+Ricardo Antonio Quintanilla,88990011-6,31/10/1998,Flemón en molar 47. Antibióticos + drenaje.
+Verónica Carolina Rivas,99001122-7,04/12/1987,Restauración de composite en diente 21 (2024).
+David Ernesto Sánchez,00112233-8,20/03/1971,Implante osteointegrado (diente 46). Estable.
+Gabriela Alejandra Torres,00224466-9,27/06/1994,Quiste dentígero en cordal 38. RMN requerida.
+Jorge Eduardo Umaña,00335577-0,16/09/1960,Prótesis híbrida superior. Ajuste cada 6 meses.
+Sara Isabel Vásquez,00446688-1,23/04/2003,Ortodoncia interceptiva (aparato removible).
+Manuel de Jesús Zelaya,00557799-2,10/11/1985,Hiperplasia gingival por fenitoína. Control.
