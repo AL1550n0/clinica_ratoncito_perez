@@ -12,5 +12,6 @@ void menuPacientes();
 void agregarPaciente();
 void buscarPaciente();
 void editarPaciente();
+void cargarPacientesDesdeCSV();
 
 #endif
