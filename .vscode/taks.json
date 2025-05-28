@@ -1,0 +1,27 @@
+{
+"version": "2.0.0",
+"tasks": [
+    {
+        "label": "Compilar Clínica",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+        "-Wall",
+        "-Wextra",
+        "-g3",
+        "src/main.cpp",
+        "src/menu.cpp",
+        "src/citas.cpp",
+        "src/tratamientos.cpp",
+        "src/inventario.cpp",
+        "-o",
+        "src/output/clinica.exe"
+    ],
+        "group": {
+        "kind": "build",
+        "isDefault": true
+    },
+        "problemMatcher": ["$gcc"]
+    }
+    ]
+}

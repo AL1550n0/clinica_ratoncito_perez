@@ -1,9 +1,12 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <windows.h>
+#include <iomanip>
 #include "../include/inventario.h"  
 
 using namespace std;
+
 
 void menuInventario() {
     int opcion;

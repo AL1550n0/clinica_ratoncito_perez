@@ -7,13 +7,6 @@
 using namespace std;
 
 
-
-int main() {
-    SetConsoleOutputCP(65001);
-    menuPacientes(); 
-    return 0;
-}
-
 void menuPacientes() {
     int opcion;
     do {

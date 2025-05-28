@@ -8,4 +8,4 @@ Pasos:
 3. Ingrese los datos solicitados.
 4. Los cambios se guardan automáticamente en archivos binarios.
 
-Los datos se guardan en la carpeta 'data/'.
+Los datos se guardan en la carpeta 'src/output/data'.
