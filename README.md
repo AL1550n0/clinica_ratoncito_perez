@@ -35,9 +35,6 @@ Este es un sistema de administración para clínicas dentales desarrollado en C+
 > Todos los datos se guardan automáticamente en archivos binarios dentro de `src/output/data`.
 
 ---
-## Funcionamiento del programa
-[Ver video demostrativo](./Demostracion.mp4)
----
 
 ## 🧠 Estructura del proyecto
 
