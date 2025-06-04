@@ -3,7 +3,6 @@
 #include <cstring>
 #include "../include/pacientes.h"
 #include <windows.h>
-<<<<<<< HEAD
 #include <limits>
 
 using namespace std;
@@ -13,17 +12,7 @@ void agregarPaciente();
 void buscarPaciente();
 void editarPaciente();
 void mostrarTodosPacientes(); // Opcional para depuración
-=======
 using namespace std;
-
-
-
-int main() {
-    SetConsoleOutputCP(6500)
-    menuPacientes(); 
-    return 0;
-}
->>>>>>> 2f6fe130eab62bb5a7a37fe2c35154ecbd40a915
 
 void menuPacientes() {
     int opcion;
@@ -34,8 +23,6 @@ void menuPacientes() {
         cout << "3. Editar Paciente\n";
         cout << "0. Volver al menú principal\n";
         cout << "Seleccione una opción: ";
-<<<<<<< HEAD
-
         if (!(cin >> opcion)) {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -43,11 +30,9 @@ void menuPacientes() {
             continue;
         }
 
-        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar buffer tras leer int
-=======
-        cin >> opcion;
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar buffer tras leer int        cin >> opcion;
         cin.ignore();
->>>>>>> 2f6fe130eab62bb5a7a37fe2c35154ecbd40a915
+
 
         switch(opcion) {
             case 1: agregarPaciente(); break;
@@ -61,17 +46,16 @@ void menuPacientes() {
 
 void agregarPaciente() {
     Paciente p;
-<<<<<<< HEAD
-    memset(&p, 0, sizeof(Paciente));
 
-    CreateDirectoryA("data", NULL);
-=======
->>>>>>> 2f6fe130eab62bb5a7a37fe2c35154ecbd40a915
-    ofstream archivo("data/pacientes.dat", ios::binary | ios::app);
-    if (!archivo) {
-        cout << "Error al abrir el archivo de pacientes.\n";
-        return;
-    }
+memset(&p, 0, sizeof(Paciente));
+
+CreateDirectoryA("data", NULL);
+
+ofstream archivo("data/pacientes.dat", ios::binary | ios::app);
+if (!archivo) {
+    cout << "Error al abrir el archivo de pacientes.\n";
+    return;
+}
 
     cout << "\n--- AGREGAR PACIENTE ---\n";
 
