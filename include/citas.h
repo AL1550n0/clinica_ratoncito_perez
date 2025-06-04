@@ -2,10 +2,11 @@
 #define CITAS_H
 
 struct Cita {
-    char duiPaciente[10];
+    char dui[10];
+    char nombrePaciente[50];
     char tratamiento[50];
-    char fecha[11];
-    char hora[6];
+    char fecha[11]; // DD/MM/AAAA
+    char hora[6];   // HH:MM
 };
 
 void agregarCita();

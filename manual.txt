@@ -1,11 +1,54 @@
 Manual de Usuario - Clínica Dental Ratoncito Pérez
+Este sistema permite administrar pacientes, inventario de medicamentos, 
+tratamientos dentales y citas de manera sencilla desde una interfaz en consola.
 
-Este sistema le permite administrar pacientes, inventario de medicamentos, tratamientos dentales y citas.
+1. Introducción al sistema
+Nombre del proyecto: Clínica Ratoncito Pérez
+
+Objetivo: Facilitar la gestión de pacientes, citas, tratamientos y medicamentos en una clínica dental.
+
+Tecnología utilizada: C++ con archivos binarios
+
+Estructura modular: Cada módulo (pacientes, citas, tratamientos, medicamentos) está separado en funciones y archivos .cpp/.h.
+
+2. Requisitos del sistema
+Sistema operativo: Windows.
+
+Compilador: g++ (recomendado usar MinGW).
+
+Editor sugerido: Visual Studio Code o Dev-C++.
+
+Requiere consola para ejecutarse.
 
 Pasos:
-1. Ejecute el archivo generado (por ejemplo, clinica.exe).
-2. Navegue por el menú utilizando los números correspondientes.
-3. Ingrese los datos solicitados.
-4. Los cambios se guardan automáticamente en archivos binarios.
+Deben hacer doble clic en compile.bat o abrirlo desde consola. Este archivo compila todos los .cpp.
 
-Los datos se guardan en la carpeta 'src/output/data'.
+3. Instrucciones de uso
+Pasos para compilar y ejecutar
+Ejecuta el archivo compile.bat con doble clic o desde la consola. Este archivo compilará automáticamente todos los archivos .cpp.
+
+Una vez compilado, ejecuta el archivo Clínica_Ratoncito_Perez.exe.
+
+Navega por el menú usando los números correspondientes.
+
+Menús disponibles
+Módulo Pacientes
+
+Agregar: Solicita nombre, DUI, fecha de nacimiento y comentarios.
+
+Buscar: Muestra los datos al ingresar el DUI.
+
+Editar: Permite actualizar la información del paciente.
+
+Ingresa los datos que el sistema solicite en cada módulo.
+
+Todos los cambios se guardan automáticamente en archivos binarios.
+
+Nota: Los datos se almacenan en la carpeta src/output/data.
+
+Errores comunes y soluciones
+El programa no abre: Asegúrate de haber ejecutado compile.bat antes.
+
+Error: 'windows.h' no encontrado: Instala Dev-C++ o MinGW correctamente.
+
+Error: 'pacientes.dat' no existe: El archivo se crea automáticamente al agregar el primer paciente.
