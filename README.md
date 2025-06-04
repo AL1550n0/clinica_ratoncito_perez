@@ -36,7 +36,7 @@ Este es un sistema de administración para clínicas dentales desarrollado en C+
 
 ---
 ## Funcionamiento del programa
-
+[Ver video demostrativo](./Demostracion.mp4)
 ---
 
 ## 🧠 Estructura del proyecto

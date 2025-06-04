@@ -1,3 +1,4 @@
+@chcp 65001 >nul
 @echo off
 echo Compilando Clinica Ratoncito Perez...
 C:\TDM-GCC-64\bin\g++.EXE -Wall -Wextra -O2 src\main.cpp src\menu.cpp src\pacientes.cpp src\inventario.cpp src\tratamientos.cpp src\citas.cpp -I.\include -o "Clinica_Ratoncito_Perez.exe"
