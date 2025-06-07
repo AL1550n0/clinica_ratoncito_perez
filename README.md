@@ -46,6 +46,7 @@ Este es un sistema de administración para clínicas dentales desarrollado en C+
 - Maynor  (Colaborador)
 - Brayan  (Colaborador)
 - Fernando (Colaborador)
+- Saúl (Colaborador)
 
 ## 📄 Licencia
 
